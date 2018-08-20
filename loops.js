@@ -17,10 +17,7 @@ function whileLoop(num){
 }
 
 function doWhileLoop(array){
-  var i = 0
-  /*function incrementVariable() {
-    i = i++
-  }*/
+  let num = 0
   do {
 		console.log('array.length = ' + array.length + ' and i = ' + i)
 		array = array.slice(1)
