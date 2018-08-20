@@ -16,9 +16,10 @@ function whileLoop(num){
 }
 
 function doWhileLoop(array){
-  do{
-    delete array[0]
-  } while (array.length > 1)
-  return false
+  let i = 0
+  functoin incrementVariable() {
+    i = i++
+  }
+  do 
 }
 
