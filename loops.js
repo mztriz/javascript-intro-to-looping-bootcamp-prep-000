@@ -1,10 +1,10 @@
 function forLoop(array){
   for (let num = 0; num < 25; num++){
     if (num === 1){
-     array.push(`I am ${num} strange loop`)
+     array.push(`I am ${num} strange loop.`)
     }
     else 
-      array.push(`I am ${num} strange loops`)
+      array.push(`I am ${num} strange loops.`)
   }
   return array
 }
