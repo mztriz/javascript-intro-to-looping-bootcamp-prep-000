@@ -6,6 +6,7 @@ function forLoop(array){
     else 
       console.log(`I am ${num} strange loops`)
   }
+  return array
 }
 
 function whileLoop(num){
