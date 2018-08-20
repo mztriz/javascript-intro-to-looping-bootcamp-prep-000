@@ -13,7 +13,7 @@ function whileLoop(num){
   while (num > 0 ){
     console.log(--num)
  }
-  return num = 'done'
+  return 'done'
 }
 
 function doWhileLoop(array){
