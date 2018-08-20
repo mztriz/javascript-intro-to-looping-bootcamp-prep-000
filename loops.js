@@ -1,6 +1,6 @@
 function forLoop(array){
   for (var num in array){
-    if (array.first){
+    if (array === 1 ){
       console.log(`I am ${num} strange loop`)
     }
     else 
