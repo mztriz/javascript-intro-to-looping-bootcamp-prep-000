@@ -1,5 +1,5 @@
 function forLoop(array){
-  for ( var num in array){
+  for (var num in array){
     if (array.first){
       console.log(`I am ${num} strange loop`)
     }
