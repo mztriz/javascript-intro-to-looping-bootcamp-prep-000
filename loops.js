@@ -17,11 +17,11 @@ function whileLoop(num){
 }
 
 function doWhileLoop(array){
-  let num = 0
+  let counter = 0
   do {
-		console.log('array.length = ' + array.length + ' and i = ' + i)
+		console.log('array.length = ' + array.length + ' and i = ' + counter)
 		array = array.slice(1)
-		i++
-	} while (array.length > 0 && i < 5)
+		counter++
+	} while (array.length > 0 && counter < 5)
 	return array
 }
