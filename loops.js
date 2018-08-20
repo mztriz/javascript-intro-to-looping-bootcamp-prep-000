@@ -19,7 +19,7 @@ function whileLoop(num){
 function doWhileLoop(array){
   var i = 0
   function incrementVariable() {
-    i = i++
+    i = i + 1
   }
   do {
 		console.log('array.length = ' + array.length + ' and i = ' + i)
