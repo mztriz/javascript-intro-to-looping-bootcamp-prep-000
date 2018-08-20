@@ -18,13 +18,13 @@ function whileLoop(num){
 
 function doWhileLoop(array){
   var i = 0
-  function incrementVariable() {
+  /*function incrementVariable() {
     i = i++
-  }
+  }*/
   do {
 		console.log('array.length = ' + array.length + ' and i = ' + i)
 		array = array.slice(1)
-		incrementVariable()
+		i++
 	} while (array.length > 0 && i < 5)
 	return array
 }
