@@ -20,8 +20,8 @@ function doWhileLoop(array){
   function incrementVariable() {
     i = i++
   }
-  do incrementVariable() {
-    
-  }
+  do {
+    incrementVariable() 
+  } while (array.length > 0 && array < 5)
 }
 
