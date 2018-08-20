@@ -16,7 +16,7 @@ function whileLoop(num){
 }
 
 function doWhileLoop(array){
-  let i = 0
+  var i = 0
   function incrementVariable() {
     i = i++
   }
